@@ -101,7 +101,7 @@ header::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url('images/backround2.avif');
+  background-image: url('Images/backround2.avif');
   background-repeat: repeat-x;
   background-size: cover;
   animation: scrollBg 100s linear infinite;
@@ -157,7 +157,7 @@ section {
   gap: 30px;
   justify-items: center; 
   padding-top: 30px;
-  margin: 0 auto;        /* Center the whole grid on page */
+  margin: 0 auto;    
 }
 
 .tech-icons img {
@@ -287,12 +287,12 @@ footer {
   transform: scale(1.1);
 }
 
-/* Add this block */
+
 .contact-img {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin: 20px 0; /* Adds top and bottom space */
+  margin: 20px 0;
 }
 
 
